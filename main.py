@@ -1,5 +1,6 @@
 import pandas as pd    
 import random
+from fastapi import FastAPI
 
 import requests
 from bs4 import BeautifulSoup
