@@ -1,31 +1,10 @@
-from fastapi import FastAPI
 import pandas as pd    
-import numpy as np
-import nltk
-import csv
-import io
-import sklearn
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.tokenize import RegexpTokenizer
-from nltk.stem import PorterStemmer
-import json
-import math
-import sklearn.cluster as sk
-from collections import Counter
-import matplotlib.pyplot as plt
-from scipy.spatial.distance import cdist
-import wordcloud
-from PIL import Image
-import math
 import random
-
+from fastapi import FastAPI, BackgroundTasks
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import time
 import random
-
 app = FastAPI()
 
 # Variabili globali per memorizzare i risultati dello scraping
