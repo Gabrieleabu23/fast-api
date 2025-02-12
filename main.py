@@ -1,6 +1,6 @@
 import pandas as pd    
 import random
-from fastapi import FastAPI
+from fastapi import FastAPI, BackgroundTasks
 
 import requests
 from bs4 import BeautifulSoup
