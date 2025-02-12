@@ -7,3 +7,4 @@ numpy
 nltk
 requests
 beautifulsoup4
+scikit-learn
